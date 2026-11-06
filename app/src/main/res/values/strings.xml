@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DeviceSpec</string>
+    <string name="back">Back</string>
+    <string name="info">About DeviceSpec</string>
+    <string name="close">Close</string>
+    <string name="search_hint">Search all values</string>
+    <string name="search_section_hint">Search this section</string>
+    <string name="empty_search">No results.</string>
+    <string name="empty_section">Nothing to show.</string>
+
+    <string name="hero_loading">Reading this device…</string>
+    <string name="hero_detail">Android %1$s · API %2$s</string>
+    <string name="hero_progress">Collected %1$d of %2$d sections</string>
+    <string name="hero_ready">All %1$d sections collected. Long press a value to copy it.</string>
+
+    <string name="share_report">Share report</string>
+    <string name="share_waiting">Collecting…</string>
+    <string name="share_title">Share device report</string>
+    <string name="share_subject">Device report from DeviceSpec</string>
+    <string name="share_failed">Android could not open the share sheet.</string>
+    <string name="report_notice">The fingerprint and model identify the device type and are included in the report. You see the share sheet before anything is sent.</string>
+
+    <string name="copied">Copied</string>
+    <string name="copy_failed">Could not copy this value.</string>
+    <plurals name="section_subtitle">
+        <item quantity="one">%1$d value · long press to copy</item>
+        <item quantity="other">%1$d values · long press to copy</item>
+    </plurals>
+    <plurals name="section_subtitle_sensors">
+        <item quantity="one">%1$d value · tap a sensor for live values</item>
+        <item quantity="other">%1$d values · tap a sensor for live values</item>
+    </plurals>
+    <string name="section_loading">Collecting…</string>
+
+    <string name="sensor_not_found">This sensor is no longer available.</string>
+    <string name="sensor_not_started">Android did not start this sensor. It may be a one-shot sensor, or it may need a permission that DeviceSpec does not request.</string>
+    <string name="sensor_waiting">Waiting for a reading. Some sensors only report when their value changes.</string>
+    <string name="sensor_values">Live values</string>
+    <string name="sensor_details">Sensor</string>
+    <string name="sensor_accuracy">Accuracy</string>
+    <string name="sensor_events">Readings received</string>
+
+    <string name="info_message">DeviceSpec %1$s shows the facts about this device that matter when debugging, and builds a plain-text report to paste into a bug.\n\nIt declares no permissions, has no Internet access, no ads and no analytics. Nothing is stored and nothing leaves the device unless you share a report yourself.\n\nThe fingerprint and model identify the device type and are included in the report. DeviceSpec does not read the IMEI, serial number, Android ID, MAC address, accounts, phone numbers or advertising ID.\n\nNetwork details are left out on purpose, so no network permission is needed.\n\nOEM builds differ, so a value that a device refuses to give is shown as Unavailable.</string>
+</resources>
